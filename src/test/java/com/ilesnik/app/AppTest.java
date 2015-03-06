@@ -36,8 +36,13 @@ public class AppTest
         assertTrue( true );
     }
 
-    public void testApp2()
+    public void testShouldPass()
     {
         assertTrue(100 == 50 * 2);
+    }
+
+    public void testShouldFail()
+    {
+        assertFalse( true );
     }
 }

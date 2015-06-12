@@ -1,7 +1,7 @@
 <?xml version="1.1" encoding="UTF-8"?>
 <testsuite name="com.app.Integration" tests="2" failures="0" errors="0" timestamp="1970-01-01T00:00:00" hostname="ip-1-5-2-9" time="1.431298903191E9">
   <properties/>
-  <ignored-testcase name="publishPlanLineItemsToFlagship" classname="com.appt.Integration" time="0.0"/>
+  <ignored-testcase name="publishPlanLineItemsToFlagship" classname="com.app.Integration" time="0.0"/>
   <ignored-testcase name="importActualsFromFlagship" classname="com.app.Integration" time="0.0"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[15/05/10 16:01:43 INFO web.WebTestContextBootstrapper: Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]

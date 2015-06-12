@@ -3,9 +3,16 @@
   :java_version: java-7-openjdk
   :maven_version: 3.0.5
 
+:ruby_version: ruby-1.9.3
+
 :tests:
 - type: junit
-  command: mvn test
+  command: mvn test && cp art/rep.xml target/surefire-reports/TEST-com.app.IntegrationTest.xml
   mode: basic
   report_files:
   - "**/surefire-reports/TEST-*.xml"
+
+#- type: custom
+#  command: mvn --help
+#  invocation: single
+#  output: exit-status

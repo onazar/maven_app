@@ -12,6 +12,9 @@
   report_files:
   - "**/surefire-reports/TEST-*.xml"
 
+coverage:
+  version: 2
+  enabled: true
 #- type: custom
 #  command: mvn --help
 #  invocation: single
